@@ -1,0 +1,47 @@
+ *{
+    padding:0px;
+    margin : 0px;
+ }
+ 
+ #navbar{
+    height:60px;
+    background-color: #0f1111;
+    /* border:2px solid white;  */
+  }
+  #amazon{
+    font-size: 25px;
+   color:#f08804 ;
+   margin-right: 200px;
+  }
+  .item{
+    color:white;
+    margin-right: 200px;
+    text-decoration: none;
+  }
+  /* #samazon
+  { height:20px;
+    width :150px;
+    text-align: left;
+    color:#of1111;
+    background-color: white;
+  } */
+  #search{
+    text-align: center;
+    height:20px;
+    color:white;
+    background-color: #f08804;
+  }
+  
+  
+  /* #light{
+    height:200px;
+    width:340px;
+    border:2px solid black; 
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; 
+    align-items:center;
+  }
+   */
+    
+
