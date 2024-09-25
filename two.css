@@ -1,0 +1,47 @@
+
+*{
+    margin:0px;
+    padding :0px;
+}
+#navbar{
+    background-color: black;
+    height:60px;
+}
+#navbarButtons{
+    color:#f08804;
+    font-size: 25px;
+    margin-right: 200px;
+}
+.navbarButtons{
+    color: white;
+    margin-right: 200px;
+    
+}
+#content{
+    height:820px;
+}
+.contextBox{
+    height: 100px;
+    width :100px;
+    display:inline-block;
+    border:2px solid black;
+    
+}
+#navs{
+    color:white;
+    background-color: #f08804;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+#a{
+    background-color: rgba(255,200,80,0.5)
+}
+#b{
+    background-color: rgba(255,20,80,0.5)
+}
+#c{
+    background-color: rgba(255,20,250,0.5)
+}
