@@ -1,47 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-*{
-    margin:0px;
-    padding :0px;
-}
-#navbar{
+#navbar {
     background-color: black;
-    height:60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
 }
-#navbarButtons{
-    color:#f08804;
+
+#navbarButtons {
+    color: #f08804;
     font-size: 25px;
-    margin-right: 200px;
+    margin-right: 200px; /* Adjusted margin for better spacing */
 }
-.navbarButtons{
+
+.navbarButtons {
     color: white;
-    margin-right: 200px;
-    
+    margin-right: 200px; /* Adjusted margin for better spacing */
 }
-#content{
-    height:820px;
+
+#content {
+    height: 820px;
+    display: flex; /* Using flexbox for layout */
+    justify-content: space-around; /* Distributes boxes evenly */
+    align-items: center;
 }
-.contextBox{
+
+.contextBox {
     height: 100px;
-    width :100px;
-    display:inline-block;
-    border:2px solid black;
-    
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
 }
-#navs{
-    color:white;
+
+#navs {
+    color: white;
     background-color: #f08804;
 }
-footer{
-    background-color: black;
-    color:white;
+
+#a {
+    background-color: rgba(255, 200, 80, 0.5);
+}
+
+#b {
+    background-color: rgba(255, 20, 80, 0.5);
+}
+
+#c {
+    background-color: rgba(255, 0, 251, 0.5);
+}
+
+.foottext {
+    margin-top: 10px; /* Added margin for spacing */
+    width: 150px;
+    display: inline-block;
+    margin-right: 20px; /* Adjusted margin for better spacing */
+    vertical-align: top;
+}
+
+#karang {
+    font-size: large;
     text-align: center;
+    height: 30px;
+    background-color: rgb(138, 200, 194);
+    padding: 10px; /* Added padding for better appearance */
 }
-#a{
-    background-color: rgba(255,200,80,0.5)
+
+#karaang {
+    text-align: center;
+    height: 40px;
+    background-color: black;
+    color: white;
 }
-#b{
-    background-color: rgba(255,20,80,0.5)
+
+#foot {
+    height: 240px;
+    background-color: rgba(173, 98, 172, 0.5);
+    margin-bottom: 0;
+    display: flex; /* Added flexbox for footer layout */
+    justify-content: space-between; /* Distributes footer items evenly */
+    padding: 20px; /* Added padding for spacing */
 }
-#c{
-    background-color: rgba(255,20,250,0.5)
+
+a {
+    text-decoration: none;
+    color: black; /* Default link color */
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #f08804;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
